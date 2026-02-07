@@ -39,11 +39,67 @@
                 </ul>
             </address>
 
-            <button class="burger-btn">
+            <button class="burger-btn" type="button"data-mobile-menu-open>
                 <svg class="burger-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
             </button>
+
+            <div class="mobile-menu is-open" data-mobile-menu>
+                <div class="container mobile-menu-container">
+                    <button class="modal-close-button mobile-menu-close-btn" type="button" data-mobile-menu-close>
+                        <svg class="close-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close"></use>
+                        </svg>
+                    </button>
+
+                    <nav class="mobile-nav">
+                        <ul class="mobile-nav-list">
+                            <li class="mobile-nav-item"><a class="mobile-nav-link current" href="./index.html">Studio</a></li>
+                            <li class="mobile-nav-item"><a class="mobile-nav-link" href="">Portfolio</a></li>
+                            <li class="mobile-nav-item"><a class="mobile-nav-link" href="">Contacts</a></li>
+                        </ul>
+                    </nav>
+
+                    <address class="mobile-contact-us">
+                        <ul class="mobile-contact-list">
+                            <li class="mobile-contact-list-item"><a class="mobile-contact-list-link mobile-contact-list-link-phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                            <li class="mobile-contact-list-item"><a class="mobile-contact-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                    </address>
+
+                    <ul class="mobile-social-media-list">
+                        <li class="social-media-item">
+                            <a class="social-media-link" href="https://www.instagram.com/" target="_blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-media-item">
+                            <a class="social-media-link" href="https://x.com/" target="_blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-media-item">
+                            <a class="social-media-link" href="https://www.facebook.com/" target="_blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-media-item">
+                            <a class="social-media-link" href="https://www.linkedin.com/" target="_blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -51,7 +107,7 @@
       <section class="hero hidden">
           <div class="container">
               <h1 class="hero-title">Effective Solutions for Your Business</h1>
-              <button class="button" type="button" data-modal-open>Order Service</button>
+              <button class="button" type="button">Order Service</button>
           </div>
       </section>
 
