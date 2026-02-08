@@ -586,6 +586,10 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team-member-social-link:hover, .team-member-social-link:focus {
+    background-color: #404bbf;
+}
+
 @media screen and (min-width: 768px) {
     .team-list {
         flex-direction: row;

@@ -2,10 +2,6 @@
     color: #f4f4fd;
 }
 
-.team-member-social-link:hover, .team-member-social-link:focus {
-    background-color: #404bbf;
-}
-
 .portfolio {
     padding: 120px 0;
 }
