@@ -2,60 +2,6 @@
     color: #f4f4fd;
 }
 
-.features {
-    padding: 120px 0;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0, 0, 0, 0);
-    overflow: hidden;
-}
-
-.features-list {
-    display: flex;
-    gap: 24px;
-}
-
-.features-list-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.feature-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 112px;
-    margin-bottom: 8px;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background-color: #f4f4fd;
-}
-
-.feature-title {
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.feature-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .team {
     padding: 120px 0;
     background-color: #f4f4fd;
