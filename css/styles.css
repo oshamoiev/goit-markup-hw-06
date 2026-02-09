@@ -846,6 +846,19 @@ img {
     }
 }
 
+@media screen and (min-width: 1158px) {
+    .footer-container {
+        padding-inline: 0;
+    }
+
+    .social-media {
+        margin-left: 120px;
+    }
+
+    .subscribe-form-container {
+        margin-left: 40px;
+    }
+}
 
 /*TODO: remove after development*/
 .hidden {
