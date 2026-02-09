@@ -10,8 +10,8 @@
 
   }
 
-  // refs.openModalBtn.addEventListener('click', () => toggleModal(refs.modal))
-  // refs.closeModalBtn.addEventListener('click', () => toggleModal(refs.modal))
+  refs.openModalBtn.addEventListener('click', () => toggleModal(refs.modal))
+  refs.closeModalBtn.addEventListener('click', () => toggleModal(refs.modal))
 
   refs.openMobileMenuBtn.addEventListener('click', () => toggleModal(refs.mobileMenu))
   refs.closeMobileMenuBtn.addEventListener('click', () => toggleModal(refs.mobileMenu))
