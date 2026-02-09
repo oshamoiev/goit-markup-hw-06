@@ -1047,12 +1047,12 @@
         text-decoration: underline;
         color: #4d5ae5;
     }
+}
 
-    @media screen and (min-width: 768px) {
-        .modal {
-            width: 408px;
-            min-height: 584px;
-            padding-inline: 24px;
-        }
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 408px;
+        min-height: 584px;
+        padding-inline: 24px;
     }
 }
