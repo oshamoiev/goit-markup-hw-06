@@ -822,6 +822,28 @@ img {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .footer-container {
+        padding-inline: 108px;
+    }
+
+    .footer-container {
+        align-items: flex-start;
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+
+    .subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-block-title {
+        text-align: left;
+    }
+}
+
+
 /*TODO: remove after development*/
 .hidden {
     display: none;
