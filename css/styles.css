@@ -749,8 +749,10 @@ img {
 
     .footer-container {
         display: flex;
-        flex-direction: column;
+        row-gap: 72px;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
 
     .footer-logo-container {
@@ -764,17 +766,12 @@ img {
 
     .footer-text {
         max-width: 264px;
-        margin-bottom: 72px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         text-align: left;
-    }
-
-    .social-media {
-        margin-bottom: 72px;
     }
 
     .footer-block-title {
